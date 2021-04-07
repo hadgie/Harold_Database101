@@ -28,4 +28,11 @@ For the 2 sheets above, we could refine the city and country columns into countr
 
 
 
- 
+ ## 2. Barcoding data
+
+When organizing data, we need to assign unique names or **barcodes** to individual data so we could identify each data. You could orgnize the barcodes by your own standards(if you have), but these barcodes must be included:
+
+1. Aliquote barcode: barcode for every single aliquote
+2. Sample barcode: barcode for tumor samples 
+3. File barcode: barcode for unique data files(usually use md5 info)
+4. Patient barcode: barcode for every patient
